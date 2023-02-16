@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry
+ * Return: 0 (Success)
  */
 int main(void)
 {
