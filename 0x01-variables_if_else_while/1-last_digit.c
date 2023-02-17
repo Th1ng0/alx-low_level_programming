@@ -9,16 +9,17 @@
  */
 int main(void)
 {
-int n;
+int n, last_digit
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+last_digit = n % 10;
 printf("%d ", n);
-if (n > 0)
+if (last_digit > 5)
 printf("is positive 5\n");
-else if (n == 0)
-printf("is zero 0\n");
+else if (last_digit == 0)
+printf("is zero\n");
 else
-printf("is negative 0\n");
+printf("is negative\n");
 return (0);
 }
