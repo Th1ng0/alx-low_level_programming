@@ -2,10 +2,10 @@
 
 
 /**
- *  * numLength - returns the lenth of string
- *   * @num : operand number
- *    * Return: number of digits
- *     */
+ * numLength - returns the lenth of string
+ * @num : operand number
+ * Return: number of digits
+ */
 
 int numLength(int num)
 {
